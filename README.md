@@ -1,1 +1,1 @@
-# laravel setted
+# laravel setted up
