@@ -1,52 +1,59 @@
 #nav {
-    background-color: var(--color-blo);
-    border-bottom: solid var(--color-tero) 3px;
+  background-color: var(--color-tero);
 }
 
 #nav > div > img {
-    background-color: var(--color-cerulo);
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
+  background-color: var(--color-cerulo);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
 }
 
 #hero {
-    background-image: url("Bcg.jpg");
-    min-height: 600px;
-    background-position: bottom;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-image: url("Bcg.jpg");
+  min-height: 600px;
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #title {
-    color:var(--color-yelo);
-    text-shadow: var(--color-tero) 3px 3px;
-    z-index: 1000;
-    border-radius: 60px;
-    font-size: 3em;
-    text-align: right;
-    font-weight: bold;
+  color: var(--color-yelo);
+  text-shadow: var(--color-tero) 4px 4px;
+  z-index: 1000;
+  border-radius: 60px;
+  font-size: 3.5em;
+  text-align: right;
+  font-weight: bold;
 }
 
 #btn {
-    background-color: var(--color-blo);
-    margin: 0 20px;
-    padding: 5px;
-    border-radius: 15px;
-    border: green 2px solid;
-    color: green;
+  background-color: var(--color-tero);
+  margin: 0 20px;
+  padding: 5px;
+  border-radius: 15px;
+  border: var(--color-yelo) 2px solid;
+  color: var(--color-yelo);
+}
+
+#home,
+#storia,
+#talismani,
+#contatti {
+  color: var(--color-yelo);
 }
 
 :root {
-    --color-one: #73706B;
-    --color-cerulo: #00bfff;
-    --color-cino: #C88E66;
-    --color-blo: #961900;
-    --color-cione: orangered;
-    --color-fagione: #441E14;
-    --color-tero: black;
-    --color-wito: white;
-    --color-yelo: yellow;
+  --color-one: #73706b;
+  --color-cerulo: #00bfff;
+  --color-cino: #c88e66;
+  --color-blo: #961900;
+  --color-cione: orangered;
+  --color-fagione: #441e14;
+  --color-tero: black;
+  --color-wito: white;
+  --color-yelo: yellow;
+  --color-gre: lime;
 }
